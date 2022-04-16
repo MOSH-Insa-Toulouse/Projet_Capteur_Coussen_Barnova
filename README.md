@@ -17,4 +17,4 @@ We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high
 We designed and printed a printed circuit board corresponding to our circuit. 
 
 ## Software implementation
-With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data. 
+With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data.
