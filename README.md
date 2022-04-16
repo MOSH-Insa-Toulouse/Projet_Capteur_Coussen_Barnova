@@ -7,11 +7,11 @@ The project is inspired by Scientific Reports article "Pencil Drawn Strain Gauge
 The aim of this project is to fabricate a reliable strain gauge made of pencil drawn paper.
 
 ## Idea
-Pencil carbon deposited on the paper contains percolated graphite particles network where electrons move. Mechanism enabling electrons to move from grain to grain is tunnelling through potential barrier. However, tunnelling depends exponentially on the length of the barrier. When a mechanical stress is applied to the gauge, grains of percolated network spread away. Thus, when a tension is applied to gauge electrons move less => resistance increases. When gauge is compressed electrons move more => resistance decreases.
+Pencil carbon deposited on the paper is made of percolated graphite particles network where electrons move. Mechanism enabling electrons to move from grain to grain is tunnelling through potential barrier. However, tunnelling depends exponentially on the length of the barrier. When a mechanical stress is applied to the gauge, grains of percolated network spread away. Thus, when a tension is applied to gauge electrons move less => resistance increases. When gauge is compressed electrons move more => resistance decreases.
 
 ## Hardware implementation
 A photo of our sensor can be found in the repository.
-![Sensor](/Sensor.png)
+![Sensor](https://github.com/sarah-ba/Projet_Capteur_Coussen_Barnova/blob/main/Sensor.png?raw=true)
 With 5V voltage supply current in the sensor has an order of magnitude of a nanoampere. Ordinary multimeter is not able to detect such a small current. We use LTC1050 amplifier which enables to convert current into a voltage that can be measured thanks to Arduino Uno board.
 We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies.
 We designed and printed a printed circuit board corresponding to our circuit. 
