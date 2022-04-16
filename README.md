@@ -11,7 +11,7 @@ Pencil carbon deposited on the paper contains percolated graphite particles netw
 
 ## Hardware implementation
 A photo of our sensor can be found in the repository.
-![Sensor](/Sensor.jpeg)
+![Sensor](/Sensor.png)
 With 5V voltage supply current in the sensor has an order of magnitude of a nanoampere. Ordinary multimeter is not able to detect such a small current. We use LTC1050 amplifier which enables to convert current into a voltage that can be measured thanks to Arduino Uno board.
 We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies.
 We designed and printed a printed circuit board corresponding to our circuit. 
