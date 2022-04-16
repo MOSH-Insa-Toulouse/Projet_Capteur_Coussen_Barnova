@@ -12,9 +12,12 @@ Pencil carbon deposited on the paper is made of percolated graphite particles ne
 ## Hardware implementation
 A photo of our sensor can be found in the repository.
 ![Sensor](https://github.com/sarah-ba/Projet_Capteur_Coussen_Barnova/blob/main/Sensor.png?raw=true)
-With 5V voltage supply current in the sensor has an order of magnitude of a nanoampere. Ordinary multimeter is not able to detect such a small current. We use LTC1050 amplifier which enables to convert current into a voltage that can be measured thanks to Arduino Uno board.
-We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies.
-We designed and printed a printed circuit board corresponding to our circuit. 
+Supplying the sensor with 5V induces current in the sensor. However, this current has an order of magnitude of a nanoampere. Ordinary multimeter is not able to detect such a small current. We use LTC1050 amplifier which enables to convert current into a voltage that can be measured thanks to Arduino Uno board.
+We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies. Further explanations are contained in Filtres document.
+We designed and printed a printed circuit board corresponding to our circuit. KiCad files can be found in KiCad directory.
 
 ## Software implementation
-With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in "App" 
+With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App".
+
+## Tests and results
+Results can be found in the file Measures. Unfortunately, our sensor does not give concluding results. We did not fabricate test bench that could prove our concept. We measured how the resistance changes as a function of curvature. However, wires connection induced a lot of error because of lack of stability.
