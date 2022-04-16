@@ -11,7 +11,7 @@ Pencil carbon deposited on the paper is made of percolated graphite particles ne
 
 ## Hardware implementation
 A photo of our sensor can be found in the repository.
-![Sensor](Sensor.png "Sensor")
+![Sensor](Sensor.png "Sensor" | width=100)
 Supplying the sensor with 5V induces current in the sensor. However, this current has an order of magnitude of a nanoampere. Ordinary multimeter is not able to detect such a small current. We use LTC1050 amplifier which enables to convert current into a voltage that can be measured thanks to Arduino Uno board.
 We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies. Further explanations are contained in Filtres document.
 We designed this electrical circuit as a shield PCB (printed circuit board) using KiCad 6.0 software and printed it. KiCad files can be found in KiCad directory.
