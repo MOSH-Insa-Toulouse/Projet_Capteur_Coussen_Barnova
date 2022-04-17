@@ -24,4 +24,14 @@ We designed this electrical circuit as a shield PCB (printed circuit board) usin
 With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App".
 
 ## Tests and results
-Results can be found in the file Measures. Unfortunately, our sensor does not give concluding results. We did not fabricate test bench that could prove our concept. We measured how the resistance changes as a function of curvature. However, wires connection induced a lot of error because of lack of stability.
+Results can be found in the file Measures. Our sensor gives limited results in the conditions we created. Even though, we did not manage to fabricate test bench that could prove clearly our concept, we measured how the resistance changes as a function of curvature. However, wires connection induced a lot of error because of lack of stability.
+
+## Limits 
+Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
+Furthermore, resistance depends clearly on amount of carbon deposited. This factor is quite difficult to evaluate and to control in our conditions.
+Moreover, our measures are not repeatable because paper distorts when we measure relatively big strain. 
+Finally, wire connections slip on the paper which alters the resistance. We would need a more reliable connection to get more solid results.
+
+## Authors
+Sarah Barnová : barnova@insa-toulouse.fr
+Louise Coussen : coussen@insa-toulouse.fr
