@@ -40,7 +40,7 @@ Results can be found in the file Measures. We get linear slope of the calibratio
 Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
 Furthermore, resistance depends clearly on amount of carbon deposited. This factor is quite difficult to evaluate and to control in our conditions.
 Moreover, our measures are not repeatable because paper distorts when we measure relatively big strain. 
-Finally, wire connections slip on the paper which alters the resistance. We would need a more reliable connection to get more solid results.
+Finally, wire connections slip on the paper which alters the resistance. We would need a more reliable connection to decrease average error and get more repeatable results.
 
 ## Authors
 Sarah Barnová : barnova@insa-toulouse.fr
