@@ -36,7 +36,7 @@ Our sensor can be drawn with different pencils. Their content is a mixture of cl
 
 Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. It is possible to make a sensor with pencil drawn paper. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. However, wires connection induced on paper a lot of error because of lack of stability.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Result_HB.jpeg?raw=true" width="550" height="80">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Result_HB.jpeg?raw=true" width="450" height="300">
 
 
 ## Limits 
