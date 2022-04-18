@@ -21,7 +21,9 @@ We designed this electrical circuit as a shield PCB (printed circuit board) usin
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="410" height="230">
 
 ## Software implementation
-With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App".
+With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. This code can be found in the directory "code_Arduino". To run the code you will need to download Adafruit_1306 library.
+We developed this code without PCB and for the sake of simplicity and efficiency we changed one pin between PCB and code. Switch pin of the rotary encoder is wired to the pin 3 of Arduino instead of pin 5 (as in PCB). The reason is that we use Interrupts in the code and they can be generated only by the Arduino pins 2 and 3.  
+Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App".
 
 ## Tests and results
 
@@ -33,8 +35,6 @@ Our sensor can be drawn with different pencils. Their content is a mixture of cl
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="550" height="80">
 
 Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. However, wires connection induced a lot of error because of lack of stability.
-
-
 
 ## Limits 
 Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
