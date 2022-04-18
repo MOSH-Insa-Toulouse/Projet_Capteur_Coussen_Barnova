@@ -18,7 +18,7 @@ Supplying the sensor with 5V induces current in the sensor. However, this curren
 We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies. Further explanations are contained in Electronic_simulation_LTSpice document.
 We designed this electrical circuit as a shield PCB (printed circuit board) using KiCad 6.0 software and printed it. KiCad files can be found in KiCad directory.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="510" height="100">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="410" height="230">
 
 ## Software implementation
 With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App".
@@ -29,7 +29,7 @@ With a focus on customized Arduino board we've written Arduino programs to run O
 
 Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to applied strain. However, wires connection induced a lot of error because of lack of stability.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="610" height="80">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="600" height="90">
 
 ## Limits 
 Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
