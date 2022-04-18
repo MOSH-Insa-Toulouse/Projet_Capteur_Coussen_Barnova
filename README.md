@@ -25,11 +25,11 @@ With a focus on customized Arduino board we've written Arduino programs to run O
 
 ## Tests and results
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Sensor_dimensions.jpeg?raw=true" width="480" height="200">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Sensor_dimensions.jpeg?raw=true" width="460" height="180">
 
 Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to applied strain. However, wires connection induced a lot of error because of lack of stability.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="600" height="90">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="580" height="80">
 
 ## Limits 
 Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
