@@ -18,7 +18,7 @@ Supplying the sensor with 5V induces current in the sensor. However, this curren
 We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies. Further explanations are contained in Electronic_simulation_LTSpice document.
 We designed this electrical circuit as a shield PCB (printed circuit board) using KiCad 6.0 software and printed it. KiCad files can be found in KiCad directory.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="410" height="330">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="480" height="330">
 
 ## Software implementation
 With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. This code can be found in the directory "code_Arduino". To run the code you will need to download Adafruit_1306 library.
@@ -36,7 +36,7 @@ Our sensor can be drawn with different pencils. Their content is a mixture of cl
 
 Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. It is possible to make a sensor with pencil drawn paper. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. However, wires connection induced on paper a lot of error because of lack of stability.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Result_HB.jpeg?raw=true" width="450" height="300">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Result_HB.jpeg?raw=true" width="490" height="300">
 
 
 ## Limits 
