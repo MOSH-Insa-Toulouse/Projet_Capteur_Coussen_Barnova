@@ -18,7 +18,7 @@ Supplying the sensor with 5V induces current in the sensor. However, this curren
 We dimensioned amplifier circuit in order to filter 50 Hz noise and cut off high frequencies. Further explanations are contained in Electronic_simulation_LTSpice document.
 We designed this electrical circuit as a shield PCB (printed circuit board) using KiCad 6.0 software and printed it. KiCad files can be found in KiCad directory.
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="410" height="230">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Scheme_PCB.jpg?raw=true" width="410" height="330">
 
 ## Software implementation
 With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. This code can be found in the directory "code_Arduino". To run the code you will need to download Adafruit_1306 library.
