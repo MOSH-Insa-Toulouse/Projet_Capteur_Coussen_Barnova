@@ -25,7 +25,7 @@ With a focus on customized Arduino board we've written Arduino programs to run O
 
 ## Tests and results
 
-<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Sensor_dimensions.jpeg?raw=true" width="310" height"160">
+<img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Sensor_dimensions.jpg?raw=true" width="410" height="260">
 
 Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to applied strain. However, wires connection induced a lot of error because of lack of stability.
 
