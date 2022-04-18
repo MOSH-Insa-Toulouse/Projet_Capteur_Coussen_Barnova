@@ -27,9 +27,14 @@ With a focus on customized Arduino board we've written Arduino programs to run O
 
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Sensor_dimensions.jpeg?raw=true" width="440" height="160">
 
-Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to applied strain. However, wires connection induced a lot of error because of lack of stability.
+Our sensor can be drawn with different pencils. Their content is a mixture of clay and carbon. Pencils containing more clay are indicated with H meaning "high". Their stroke is light. Pencils containing more carbon are indicated with B meaning "low" and they draw bolder lines. Here is scale of pencils hardness.
+
 
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="550" height="80">
+
+Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. However, wires connection induced a lot of error because of lack of stability.
+
+
 
 ## Limits 
 Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
