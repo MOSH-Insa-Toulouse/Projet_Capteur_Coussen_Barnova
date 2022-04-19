@@ -34,7 +34,7 @@ Our sensor can be drawn with different pencils. Their content is a mixture of cl
 
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="500" height="80">
 
-Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. It is possible to make a sensor with pencil drawn paper. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. However, wires connection induced on paper a lot of error because of lack of stability.
+Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. It is possible to make a sensor with pencil drawn paper. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. This explanation can be found in the document "Test bench". However, wires connection induced on paper a lot of error because of lack of stability.
 
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Result_HB.jpeg?raw=true" width="490" height="300">
 
@@ -43,7 +43,7 @@ Results can be found in the file Measures. We get linear slope of the calibratio
 Firstly, PCB oxydized which lead to its malfunction. Most probably, certain pins were connected with the pins they were not supposed to which hindered correct supply and transit.
 Furthermore, resistance depends clearly on amount of carbon deposited. This factor is quite difficult to evaluate and to control in our conditions.
 Moreover, our measures are not repeatable because paper distorts when we measure relatively big strain. 
-Finally, wire connections slip on the paper which alters the resistance. We would need a more reliable connection to decrease average error and get more repeatable results.
+Finally, wire connections slip on the paper which alters the resistance. We would need a more reliable connection to decrease average error and get more repeatable results. We could possibly imagine a solution to stabilize the position of the wires connections relatively to each other. 
 
 ## Authors
 Sarah Barnová : barnova@insa-toulouse.fr
