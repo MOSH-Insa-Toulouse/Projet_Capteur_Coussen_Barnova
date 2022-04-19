@@ -34,7 +34,8 @@ Our sensor can be drawn with different pencils. Their content is a mixture of cl
 
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Pencil_hardness_scale.png?raw=true" width="500" height="80">
 
-Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. It is possible to make a sensor with pencil drawn paper. Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. This explanation can be found in the document "Test bench". However, wires connection induced on paper a lot of error because of lack of stability.
+Results can be found in the file Measures. We get linear slope of the calibration curve which confirms that resistance depends on strain. It is possible to make a sensor with pencil drawn paper. We note that sensibility of our sensor is the slope of the linear function - for HB it is 14 385 Mohms/m.
+Even though, our sensor gives limited results, we measured how the resistance changes as a function of curvature and we are able to link it to bending. This explanation can be found in the document "Test bench". However, wires connection induced on paper a lot of error because of lack of stability.
 
 <img src="https://github.com/MOSH-Insa-Toulouse/Projet_Capteur_Coussen_Barnova/blob/main/Result_HB.jpeg?raw=true" width="490" height="300">
 
