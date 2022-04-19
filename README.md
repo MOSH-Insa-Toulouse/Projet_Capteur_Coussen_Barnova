@@ -23,7 +23,7 @@ We designed this electrical circuit as a shield PCB (printed circuit board) usin
 ## Software implementation
 With a focus on customized Arduino board we've written Arduino programs to run OLED screen, rotatory encoder and HC-O5 Bluetooth module enabling to send mesasured data to a smartphone. This code can be found in the directory "code_Arduino". To run the code you will need to download Adafruit_1306 library.
 We developed this code without PCB and for the sake of simplicity and efficiency we changed one pin between PCB and code. Switch pin of the rotary encoder is wired to the pin 3 of Arduino instead of pin 5 (as in PCB). The reason is that we use Interrupts in the code and they can be generated only by the Arduino pins 2 and 3.  
-Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App".
+Finally, we designed a simple app on MIT App Inventor that receives and plots the data. It can be found in the directory "App". Our app fails when it receives inf value and we did not eliminate this bug. 
 
 ## Tests and results
 
